@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Cadastro</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <div>
+        <h1 id="titulo">Cadastro de DEVs</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+    <fieldset>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div>
+            <label for="birth">Date of Birth</label>
+            <input type="date" name="birth" id="birth">
+
+            <label>Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+    </fieldset>
