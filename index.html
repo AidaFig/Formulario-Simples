@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <title>Cadastro</title>
 </head>
 <body>
-    <div>
+    <div class="titles">
         <h1 id="titulo">Cadastro de DEVs</h1>
         <p id="subtitulo">Complete suas informações</p>
         <br>
     </div>
 
     <form>
+
     <fieldset class="grupo">
         <div class="campo">
-            <label for="name"><strong>Name</strong></label>
-            <input type="text" name="name" id="name">
+            <label for="name"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome">
 
-            <label for="lastname"><strong>Last name</strong> </label>
-            <input type="text" name="lastname" id="lastname">
+            <label for="lastname"><strong>Sobrenome</strong> </label>
+            <input type="text" name="lastname" id="lastname" >
         </div>
 
         <div class="campo">
-            <label for="birth"><strong>Date of Birth</strong> </label>
+            <label for="birth"><strong>Data de Nascimento</strong> </label>
             <input type="date" name="birth" id="birth">
 
             <label><strong> Email</strong></label>
             <input type="email" name="email" id="email" required>
         </div>
-    </fieldset>
+    
 
-    <fieldset class="grupo">
         <div class="grupo2">
             <label><strong>De qual lado você desenvolve?</strong> </label><br>
             <label>
@@ -46,9 +51,9 @@
                 <input type="radio" name="devweb" value="fullstack"> Fullstack
             </label>
         </div>
-    </fieldset>
+    
 
-    <fieldset class="grupo">
+    
         <div class="grupo3">
             <label for="senioridade"><strong>Senioridade</strong> </label>
             <select id="senioridade" required>
@@ -58,9 +63,9 @@
             <option>Sênior</option>
         </select>
     </div>
-    </fieldset>
+    
 
-    <fieldset class="grupo">
+    
         <div class="grupo4">
             <label class="grupo4-title"><strong>Selecione as tecnologias que você utiliza:</strong> </label>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -78,14 +83,13 @@
                 <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
                 <label for="tecnologia7"> Java</label>
         </div>
-    </fieldset>
-
-    <fieldset class="grupo">
+    
         <div class="grupo5">
         <label><strong> Fale um pouco sobre sua experiência na área de tecnologia</strong></label>
-        <textarea rows="10" style="width: 400px" id="experiencia" name="experiencia"></textarea>
+        <textarea rows="10" style="width: 450px" id="experiencia" name="experiencia"></textarea>
     </div>
-    </fieldset>
+
+</fieldset>
 
     <button class="btn" type="submit">Concluído</button>
 </form>

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  background-color: #e4ecf2;
+}
+
+.titles #titulo {
+  margin-top: 30px;
+  color: #380B61;
+  text-align: center;
+}
+.titles #subtitulo {
+  color: #380B61;
+  text-align: center;
+}
+
+form {
+  max-width: 700px;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+form fieldset {
+  margin-left: 20%;
+  border: none;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+form fieldset input, form fieldset select, form fieldset textarea, form fieldset button {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  border-radius: 5px;
+}
+form fieldset .campo {
+  display: inline-block;
+  margin-right: 1em;
+}
+form fieldset .campo label {
+  margin-bottom: 0.2em;
+  color: #59429d;
+  display: block;
+  margin-top: 20px;
+}
+form fieldset .campo input {
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+form fieldset .grupo2 {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+form fieldset .grupo3label {
+  display: block;
+  margin-bottom: 6px;
+}
+form fieldset .grupo3select {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+form fieldset .grupo4 {
+  margin: 20px 0px;
+}
+form fieldset .grupo4 .grupo4-title {
+  display: block;
+  margin-bottom: 15px;
+}
+form fieldset .grupo5 {
+  display: flex;
+  flex-direction: column;
+}
+form fieldset .grupo5 label {
+  margin-bottom: 15px;
+}
+form fieldset .grupo5 textarea {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  margin-left: 45%;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  background-color: #59429d;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.btn .btn:hover {
+  background: #CCBBFF;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
+/*# sourceMappingURL=style.css.map */
