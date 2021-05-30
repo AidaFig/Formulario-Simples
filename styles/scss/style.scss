@@ -5,10 +5,14 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
-    background-color: #ffffff;
+    background-color: #02066F;
         
 }
 .titles {
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: #FF073A;
 
     #titulo {
         margin-top: 30px;
@@ -24,10 +28,12 @@ body {
 }
 
 form {
-    max-width: 700px;
-    margin: 10px auto;
-    border-radius: 8px;
-    background-color: #09c4d1;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    //border-radius: 8px;
+    background-color: #00022E;
+    ;
 
     input{
         @include elements-style;
@@ -43,7 +49,7 @@ form {
     }*/
 
     fieldset {
-        margin-left: 20%;
+        margin-left: 13%;
         border: none;
         justify-content: center;
         margin-bottom: 20px;
@@ -64,8 +70,14 @@ form {
                 height: 30px;
                 border-radius: 5px;
                 border: none;
-                box-shadow:  2px 2px rgba(0,0,0,0.2);
+                color: gray;
+                padding-left: 10px;
+                font-size: 0.8em;
+                //box-shadow:  2px 2px rgba(0,0,0,0.2);
+
             }
+            
+        
         }
         
         .grupo2 {
@@ -85,7 +97,7 @@ form {
                 height: 25px;
                 border-radius: 5px;
                 border: none;
-                box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+                //box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
             }
         }
         .grupo4 {
@@ -109,7 +121,7 @@ form {
             textarea {
                 border-radius: 5px;
                 border: none;
-                box-shadow:  2px 2px rgba(0,0,0,0.2);
+                //box-shadow:  2px 2px rgba(0,0,0,0.2);
             }
         }
         
@@ -118,15 +130,15 @@ form {
         margin-left: 45%;
         margin-bottom: 30px;
         padding: 10px 10px;
-        background-color: $text-color;
+        background-color: #FF073A;
         border: none;
         color: #FFFFFF;
         border-radius: 5px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        //box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
         text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     
         &:hover {
-        background-color: #08787F;
+        background-color: #02066F;
         //box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
         text-shadow: none;
             

@@ -7,24 +7,30 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1em;
-  background-color: #ffffff;
+  background-color: #02066F;
 }
 
+.titles {
+  width: 600px;
+  height: 80px;
+  margin: auto;
+  background-color: #FF073A;
+}
 .titles #titulo {
   margin-top: 30px;
-  color: #000133;
+  color: #FFFFFF;
   text-align: center;
 }
 .titles #subtitulo {
-  color: #000133;
+  color: #FFFFFF;
   text-align: center;
 }
 
 form {
-  max-width: 700px;
-  margin: 10px auto;
-  border-radius: 8px;
-  background-color: #09c4d1;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #00022E;
   /*button {
       @include elements-style;
   }*/
@@ -32,23 +38,23 @@ form {
 form input {
   font-family: sans-serif;
   font-size: 1em;
-  color: #000133;
+  color: #FFFFFF;
   border-radius: 5px;
 }
 form select {
   font-family: sans-serif;
   font-size: 1em;
-  color: #000133;
+  color: #FFFFFF;
   border-radius: 5px;
 }
 form textarea {
   font-family: sans-serif;
   font-size: 1em;
-  color: #000133;
+  color: #FFFFFF;
   border-radius: 5px;
 }
 form fieldset {
-  margin-left: 20%;
+  margin-left: 13%;
   border: none;
   justify-content: center;
   margin-bottom: 20px;
@@ -59,7 +65,7 @@ form fieldset .campo {
 }
 form fieldset .campo label {
   margin-bottom: 0.2em;
-  color: #000133;
+  color: #FFFFFF;
   display: block;
   margin-top: 20px;
 }
@@ -68,16 +74,18 @@ form fieldset .campo input {
   height: 30px;
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  color: gray;
+  padding-left: 10px;
+  font-size: 0.8em;
 }
 form fieldset .grupo2 {
   margin: 20px 0px;
   display: flex;
   flex-direction: column;
-  color: #000133;
+  color: #FFFFFF;
 }
 form fieldset .grupo3 {
-  color: #000133;
+  color: #FFFFFF;
 }
 form fieldset .grupo3label {
   display: block;
@@ -88,11 +96,10 @@ form fieldset .grupo3select {
   height: 25px;
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 form fieldset .grupo4 {
   margin: 20px 0px;
-  color: #000133;
+  color: #FFFFFF;
 }
 form fieldset .grupo4 .grupo4-title {
   display: block;
@@ -101,7 +108,7 @@ form fieldset .grupo4 .grupo4-title {
 form fieldset .grupo5 {
   display: flex;
   flex-direction: column;
-  color: #000133;
+  color: #FFFFFF;
 }
 form fieldset .grupo5 label {
   margin-bottom: 15px;
@@ -109,21 +116,19 @@ form fieldset .grupo5 label {
 form fieldset .grupo5 textarea {
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 form .btn {
   margin-left: 45%;
   margin-bottom: 30px;
   padding: 10px 10px;
-  background-color: #000133;
+  background-color: #FF073A;
   border: none;
   color: #FFFFFF;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 form .btn:hover {
-  background-color: #08787F;
+  background-color: #02066F;
   text-shadow: none;
 }
 
