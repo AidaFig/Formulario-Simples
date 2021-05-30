@@ -18,6 +18,7 @@ body {
 }
 .titles #titulo {
   margin-top: 30px;
+  padding-top: 10px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -74,7 +75,7 @@ form fieldset .campo input {
   height: 30px;
   border-radius: 5px;
   border: none;
-  color: gray;
+  color: black;
   padding-left: 10px;
   font-size: 0.8em;
 }
@@ -116,6 +117,11 @@ form fieldset .grupo5 label {
 form fieldset .grupo5 textarea {
   border-radius: 5px;
   border: none;
+  color: #00022E;
+}
+form fieldset .grupo5 ::placeholder {
+  font-size: 0.8em;
+  padding: 6px 10px;
 }
 form .btn {
   margin-left: 45%;
@@ -128,7 +134,7 @@ form .btn {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 form .btn:hover {
-  background-color: #02066F;
+  background-color: #282a64;
   text-shadow: none;
 }
 
